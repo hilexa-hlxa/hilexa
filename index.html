@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        body {
+            padding: 3%;
+            background-color: rgb(136, 136, 136);
+        }
+        .grid-content{
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            grid-template-rows: repeat(9, 1fr);
+            width: 100%;
+            height: 95vh;
+            gap: 30px;
+        }
+        .shape-1{
+            background-color: black;
+            grid-column-start: 1;
+            grid-column-end: 7;
+            grid-row-start: 1;
+            grid-row-end: 6;
+        }
+        .shape-2{
+            background-color: black;
+            grid-column-start: 7;
+            grid-column-end: 10;
+            grid-row-start: 1;
+            grid-row-end: 4;
+        }
+        .shape-3{
+            background-color: black;
+            grid-column-start: 7;
+            grid-column-end: 10;
+            grid-row-start: 4;
+            grid-row-end: 6;
+        }
+        .shape-4{
+            background-color: black;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 6;
+            grid-row-end: 8;
+        }
+        .shape-7{
+            background-color: black;
+            grid-column-start: 10;
+            grid-column-end: 11;
+            grid-row-start: 1;
+            grid-row-end: 10;
+        }
+        .shape-5{
+            background-color: black;
+            grid-column-start: 4;
+            grid-column-end: 10;
+            grid-row-start: 6;
+            grid-row-end: 8;
+        }
+        .shape-8{
+            background-color: black;
+            grid-column-start: 4;
+            grid-column-end: 7;
+            grid-row-start: 8;
+            grid-row-end: 10;
+        }
+        .shape-6{
+            background-color: black;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 8;
+            grid-row-end: 10;
+        }
+        .shape-9{
+            background-color: black;
+            grid-column-start: 7;
+            grid-column-end: 10;
+            grid-row-start: 8;
+            grid-row-end: 10;
+        }
+        p{
+            color: white;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-content">
+        <div class="shape-1"><img src="a.jpg" alt="" style="width: 100%;"></div>
+        <div class="shape-2"><img src="a.jpg" alt="" style="width: 100%;"></div>
+        <div class="shape-3"><img src="a.jpg" alt="" style="width: 100%;"></div>
+        <div class="shape-4"><img src="a.jpg" alt="" style="width: 100%;"></div>
+        <div class="shape-5"><img src="a.jpg" alt="" style="width: 100%;"></div>
+        <div class="shape-6"><img src="a.jpg" alt="" style="width: 100%;"></div>
+        <div class="shape-7"><img src="a.jpg" alt="" style="width: 100%;"></div>
+        <div class="shape-8"><img src="a.jpg" alt="" style="width: 100%;"></div>
+        <div class="shape-9"><img src="a.jpg" alt="" style="width: 100%;"></div>
+    </div>
+</body>
+</html>
